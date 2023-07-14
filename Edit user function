@@ -1,0 +1,35 @@
+<h2>Edit User</h2>
+  <form action="/edit-user" method="post">
+    <!-- Display existing users in a table -->
+    <table>
+      <tr>
+        <th>Username</th>
+        <th>Department</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>Theatre Artist</td>
+        <td>
+          <button>Edit</button>
+          <button>Delete</button>
+        </td>
+      </tr>
+      <!-- Add more rows for other users -->
+    </table>
+
+    <!-- Edit user form fields -->
+    <label for="editUsername">Username</label>
+    <input type="text" id="editUsername" name="editUsername" required>
+
+    <label for="editDepartment">Department</label>
+    <select id="editDepartment" name="editDepartment">
+      <option value="Theatre Artist">Theatre Artist</option>
+      <option value="Technology">Technology</option>
+      <option value="Pianist">Pianist</option>
+      <option value="Violinist">Violinist</option>
+      <option value="Playback singer">Playback singer</option>
+    </select>
+
+    <input type="submit" value="Save Changes">
+  </form>
