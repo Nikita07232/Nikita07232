@@ -1,0 +1,25 @@
+ 
+  <h2>Departments</h2>
+  <!-- Display departments in a table -->
+  <table>
+    <tr>
+      <th>Department</th>
+    </tr>
+    <tr>
+      <td>Theatre Artist</td>
+    </tr>
+    <tr>
+      <td>Technology</td>
+    </tr>
+    <tr>
+      <td>Pianist</td>
+    </tr>
+    <tr>
+      <td>Violinist</td>
+    </tr>
+    <tr>
+      <td>Playback singer</td>
+    </tr>
+  </table>
+</body>
+</html>
